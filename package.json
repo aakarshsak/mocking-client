@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "serve": "ng serve",
-    "build": "ng build && pscp -i D:\\Study\\projects\\moncking\\monching-aws-key.ppk -r D:\\Study\\projects\\moncking-client\\moncking-client\\dist\\moncking-client\\* ubuntu@ec2-3-145-188-105.us-east-2.compute.amazonaws.com:/opt/front-end",
+    "build": "ng build && pscp -i D:\\Study\\projects\\moncking\\monching-aws-key.ppk -r D:\\Study\\projects\\moncking-client\\dist\\moncking-client\\* ubuntu@ec2-3-145-188-105.us-east-2.compute.amazonaws.com:/opt/front-end",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
